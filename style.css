@@ -1,10 +1,10 @@
 :root {
-  --primaria: #7F3FBF;       
-  --secundaria: #0b9b47;     
-  --borda: #002365;        
-  --fundo: #1E1E2F;    
-  --texto: #E0E0E0;          
-  --branco: #FFFFFF;         
+  --primaria: #7F3FBF;
+  --secundaria: #0b9b47;
+  --borda: #002365;
+  --fundo: #1E1E2F;
+  --texto: #E0E0E0;
+  --branco: #FFFFFF;
 }
 
 * {
@@ -54,7 +54,7 @@ header p {
   margin-bottom: 1rem;
 }
 
-.sobremim{
+.sobremim {
   border: 2px solid var(--primaria);
   text-align: center;
   color: var(--branco);
@@ -64,7 +64,7 @@ header p {
   margin-bottom: 1rem;
 }
 
-.principais{
+.principais {
   border: 2px solid var(--primaria);
   text-align: center;
   color: var(--branco);
@@ -74,7 +74,8 @@ header p {
   margin-bottom: 1rem;
 }
 
-main, footer {
+main,
+footer {
   margin: auto;
   max-width: 700px;
 }
@@ -104,14 +105,14 @@ ul li {
   text-decoration: underline;
   border-radius: 8px;
   margin: 0.5rem 0;
-  transition: background-color 0.3s ease; font-size: 0.3s ease;
+  transition: background-color 0.3s ease;
 }
 
 .links2 li a {
-  display: block; 
+  display: block;
 }
 
-.links2 li:hover{
+.links2 li:hover {
   background-color: var(--secundaria);
   font-size: 1.3rem;
 }
